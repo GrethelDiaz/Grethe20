@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi Página Web</title>
+
+    <style>
+        < !DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mi Página Web Personal</title><style>
+
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        section h2 {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos por secciones con colores distintivos */
+
+        /* Inicio */
+        #inicio {
+            background-color: #d38cff;
+            /* Morado */
+        }
+
+        /* Bibliografía */
+        #bibliografia {
+            background-color: #a5defd;
+            /* Azul */
+        }
+
+        /* Habilidades */
+        #habilidades {
+            background-color: #fcb2e3;
+            /* Verde */
+        }
+
+        /* Proyectos */
+        #proyectos {
+            background-color: #a7ffae;
+            /* Naranja */
+        }
+
+        /* Contacto */
+        #contacto {
+            background-color: #f089b2;
+            /* Rosa oscuro */
+        }
+
+        .bibliografia p,
+        .contacto p,
+        .habilidades ul {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            color: white;
+        }
+
+        .habilidades ul {
+            list-style-type: square;
+        }
+
+        .proyectos .proyecto {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HIGH SELF ESTEEM</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#bibliografia">Bibliografía</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a HIGH SELF ESTEEM, tu destino online para descubrir el arte del maquillaje. Aquí transformamos
+            cada rostro en un lienzo único, resaltando la belleza que ya posees y ayudándote a expresar tu mejor
+            versión.</p>
+        <img src="imagen.jpg" alt="Logo o imagen de encabezado">
+        <!-- Cambia 'tu_imagen.jpg' por el nombre de tu imagen -->
+    </section>
+
+    <section id="bibliografia" class="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>¡Hola! Soy GretheI, maquilladora profesional y apasionada por el arte de transformar la belleza natural de
+            cada persona. Desde muy joven, descubrí que el maquillaje no solo era una herramienta para embellecer, sino
+            una forma de expresión, confianza y creatividad.
+
+            Mi carrera Mi carrera comenzó cuando estudiaba administracion de empresas. Me maquillaba por diversión y por
+            que me gustaba mucho. De ahí al terminar la carrera decidí estudiar de manera profesional maquillaje y
+            también en el instituto Montalvo en la sede de Ica. Desde entonces, he tenido el privilegio de trabajar en
+            diversas áreas del mundo del maquillaje, incluyendo bodas, sesiones fotográficas, eventos de moda. Cada
+            rostro es un lienzo único, y mi enfoque es siempre resaltar lo mejor de cada persona con productos de alta
+            calidad y técnicas innovadoras.</p>
+        <video width="640" height="360" controls>
+            <source src="nombre_del_video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Buena comunicación</li>
+            <li>Flexibilidad y adaptación</li>
+            <li>Trabajar bajo presión</li>
+            <li>Higiene y limpieza con sus productos</li>
+            <li></li>
+        </ul>
+
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/m38fbXnh2aA"
+            title="🚫 Los 5 + 1 requisitos DIGEMID para importar Maquillaje y COSMETICOS x mayor para negocio en Perú"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Línea de productos orgánicos: </h3>
+            <p>Desarrollar una gama de cosméticos hechos con ingredientes naturales y orgánicos, resaltando su
+                sostenibilidad y beneficios para la piel..</p>
+        </div>
+        <div class="proyecto">
+            <h3>Aplicación de realidad aumentada:</h3>
+            <p> Crear una app que permita a los usuarios probar diferentes productos de
+                maquillaje virtualmente usando realidad aumentada.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Tutoriales de maquillaje en línea:</h3>
+            <p> Lanzar una serie de videos o clases en línea que enseñen a los
+                clientes cómo usar los productos de maquillaje de manera efectiva.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas contactarme, puedes enviarme un correo a ejemplo@correo.com o seguirme en mis redes sociales:</p>
+        <ul>
+            <li><strong>Email:</strong> grethecd20@gmail.com</li>
+            <li><strong>Instagram:</strong>highself-esteem</li>
+            <li><strong>Telefono:</strong>21038164</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web Personal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
+
+</style>
+<style>
+    /* Estilos CSS */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    nav {
+        background-color: #444;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    section h2 {
+        color: #333;
+        border-bottom: 2px solid #444;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .bibliografia p,
+    .contacto p {
+        max-width: 800px;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .habilidades ul {
+        list-style-type: square;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .proyectos .proyecto {
+        background-color: #eee;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
+</head>
+
+<body>
